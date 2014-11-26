@@ -88,7 +88,7 @@ sub next_record {
 
 =head1 DESCRIPTION
 
-NIST::Beacon provides a perl interface to the REST API of the NIST randomness beacon.
+NIST::Beacon provides a perl interface to the REST API of the L<NIST randomness beacon|https://beacon.nist.gov/home>.
 
 =head2 Methods
 

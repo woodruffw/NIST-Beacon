@@ -15,7 +15,7 @@ SYNOPSIS
 
 DESCRIPTION
     NIST::Beacon provides a perl interface to the REST API of the NIST
-    randomness beacon.
+    randomness beacon <https://beacon.nist.gov/home>.
 
   Methods
     "latest_record"
