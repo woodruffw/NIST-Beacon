@@ -98,3 +98,11 @@ Returns the status of the beacon and value chain:
 0 - Chain intact, values all good
 1 - Start of a new chain of values, previous hash value will be all zeroes.
 2 - Time between values is greater than the frequency, but the chain is still intact
+
+=back
+
+=head1 SEE ALSO
+
+L<NIST::Beacon>
+
+=cut
