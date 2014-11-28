@@ -6,7 +6,7 @@ NIST::Beacon - A Perl module for querying NIST's randomness beacon.
 
 =head1 VERSION
 
-version 1.000
+version 1.001
 
 =head1 SYNOPSIS
 

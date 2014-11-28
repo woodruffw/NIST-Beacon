@@ -19,8 +19,18 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "mit",
   "NAME" => "NIST::Beacon",
-  "PREREQ_PM" => {},
-  "VERSION" => "1.000",
+  "PREREQ_PM" => {
+    "LWP::UserAgent" => 0,
+    "Moo" => 0,
+    "XML::Simple" => 0,
+    "strict" => 0,
+    "warnings" => 0
+  },
+  "TEST_REQUIRES" => {
+    "Net::Ping" => 0,
+    "Test::More" => 0
+  },
+  "VERSION" => "1.001",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -28,7 +38,14 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "ExtUtils::MakeMaker" => 0
+  "ExtUtils::MakeMaker" => 0,
+  "LWP::UserAgent" => 0,
+  "Moo" => 0,
+  "Net::Ping" => 0,
+  "Test::More" => 0,
+  "XML::Simple" => 0,
+  "strict" => 0,
+  "warnings" => 0
 );
 
 

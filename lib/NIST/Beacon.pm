@@ -5,7 +5,7 @@ package NIST::Beacon;
 use strict;
 use warnings;
 
-our $VERSION = "1.000";
+our $VERSION = "1.001";
 
 use Moo;
 use XML::Simple;
