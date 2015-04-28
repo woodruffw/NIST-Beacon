@@ -6,7 +6,7 @@ NIST::Beacon - A Perl module for querying NIST's randomness beacon.
 
 =head1 VERSION
 
-version 1.001
+version 1.002
 
 =head1 SYNOPSIS
 
@@ -68,7 +68,7 @@ William Woodruff <william@tuffbizz.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by William Woodruff.
+This software is Copyright (c) 2015 by William Woodruff.
 
 This is free software, licensed under:
 

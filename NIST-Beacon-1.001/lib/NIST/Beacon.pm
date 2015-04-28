@@ -5,7 +5,7 @@ package NIST::Beacon;
 use strict;
 use warnings;
 
-our $VERSION = "1.002";
+our $VERSION = "1.001";
 
 use Moo;
 use XML::Simple;
@@ -76,6 +76,18 @@ sub next_record {
 
 1;
 
+__END__
+
+=pod
+
+=head1 NAME
+
+NIST::Beacon - A Perl module for querying NIST's randomness beacon.
+
+=head1 VERSION
+
+version 1.001
+
 =head1 SYNOPSIS
 
 	use NIST::Beacon;
@@ -129,5 +141,17 @@ future.
 =head1 SEE ALSO
 
 L<NIST::Beacon::Record>
+
+=head1 AUTHOR
+
+William Woodruff <william@tuffbizz.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2015 by William Woodruff.
+
+This is free software, licensed under:
+
+  The MIT (X11) License
 
 =cut
